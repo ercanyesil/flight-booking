@@ -1,40 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ✈️ Uçak Rezervasyon Sistemi
 
-## Getting Started
+Modern ve kullanıcı dostu bir uçak rezervasyon web uygulaması.
 
-First, run the development server:
+## 🚀 Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Görsel Koltuk Seçimi**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - İnteraktif koltuk haritası
+  - Dolu/Boş koltuk gösterimi
+  - Maksimum 3 koltuk seçimi
+  - Seçilen koltukların anlık görüntülenmesi
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Yolcu Bilgileri**
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+  - Formik ile gelişmiş form yönetimi
+  - Gerçek zamanlı validasyon
+  - Otomatik format kontrolü
+  - Yaş sınırı kontrolü (12+)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **Güvenlik & Kullanıcı Deneyimi**
+  - İnaktivite kontrolü
+  - Oturum yönetimi
+  - Responsive tasarım
+  - Yükleme animasyonları
+  - Toast bildirimleri
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Teknolojiler
 
-## Learn More
+- **Frontend**
+  - Next.js
+  - TypeScript
+  - Styled Components
+  - Formik & Yup
+  - React Toastify
 
-To learn more about Next.js, take a look at the following resources:
+## 🚦 Kullanım
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. **Koltuk Seçimi**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   - Müsait koltuklardan seçim yapın (mavi)
+   - Maksimum 3 koltuk seçebilirsiniz
+   - Dolu koltuklar (kırmızı) seçilemez
 
-## Deploy on Vercel
+2. **Yolcu Bilgileri**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Her koltuk için yolcu bilgilerini doldurun
+   - Tüm alanlar zorunludur
+   - Telefon formatı: 5XX XXX XX XX
+   - E-posta formatı: ornek@domain.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+3. **Ödeme & Onay**
+   - Toplam tutarı görüntüleyin
+   - Rezervasyonu onaylayın
+   - İşlem sonucunu bekleyin
