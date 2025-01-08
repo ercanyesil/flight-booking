@@ -38,9 +38,9 @@ Modern ve kullanıcı dostu bir uçak rezervasyon web uygulaması.
 
 1. **Koltuk Seçimi**
 
-   - Müsait koltuklardan seçim yapın (mavi)
+   - Müsait koltuklardan seçim yapın
    - Maksimum 3 koltuk seçebilirsiniz
-   - Dolu koltuklar (kırmızı) seçilemez
+   - Dolu koltuklar seçilemez
 
 2. **Yolcu Bilgileri**
 
